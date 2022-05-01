@@ -1,0 +1,176 @@
+h1, h2,h3, nav, footer, .actions
+{
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif
+}
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: aquamarine;
+    background-image: url(pixel.jpg);
+}
+
+h2
+{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1.2em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-right: 0em;
+    margin-left: 0em;
+    border-bottom: solid 1pt rgb(19, 18, 18)
+}
+p{
+    font-size: 2em;
+}
+a:hover
+{
+    background-color: #FFFFCC;
+}
+a:visited
+{
+    color: #57b2e0;
+}
+a:link
+{
+    font-weight: bold;
+    color: #47B3F7;
+}
+
+
+header
+{
+    background-image: url(texture.jpg);
+    background-repeat: repeat;
+}
+h1
+{
+    padding-left: 8em;
+}
+nav#firstMenu
+{
+    background-color: rgba(79, 79, 225, 0.896);
+    font-size: 0.85em;
+    text-align: right;
+    padding-right: 6em;
+}
+nav#secondaryMenu
+{
+    background-color: #DAE1E8;
+    font-size: 1em;
+    padding-left: 6em;
+}
+nav
+{
+    padding: 0.50em;
+}
+nav a
+{
+    padding: 0.25em;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline;
+}
+
+
+article>div
+{
+    background-color: white;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-right: 6em;
+    margin-bottom: 1.5em;
+    margin-left: 6em;    
+}
+section
+{
+    background-color: white;
+    margin-top: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    border: solid 1pt black;
+    
+}
+article>div img
+{
+    border: solid 3px #999999;
+    padding: 0.3em;
+    margin-top: 0.5em;
+}
+section h3
+{
+    color: mintcream;
+    padding: 0.5em;
+    background-image: url(texture.jpg);
+    background-repeat: repeat;
+}
+section p
+{
+    margin-left: 0.5em;
+}
+section em
+{
+    color: #828275;
+}
+footer
+{
+    background-color: #283649;
+    margin-top: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    padding: 0.5em;
+}
+footer p 
+{
+    color: mintcream;
+    font-size: 0.875em;
+    
+}
+div.act ul li
+{
+    list-style: none;
+    display: inline;
+}
+div.act
+{
+    background-color: #283649;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+div.act a
+{
+    background-color: #DAE1E8;
+    padding-top: 0.3em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+    padding-left: 2em;
+    border: solid 1px #999999;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+.Edit
+{
+    background: url(edit.png) no-repeat 1px ;
+    background-position: 0.270em 0.150em;
+}
+.Flag
+{
+    background: url(flag.png) no-repeat 5px;
+    background-position: 0.250em 0.150em;
+}
+a[href^="mailto"] {
+    background: url(email.png) no-repeat 5px;
+    padding-left: 1em;
+}
+a[href^="tel"]
+{
+    background: url(call.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
